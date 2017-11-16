@@ -1,9 +1,17 @@
 <resources>
     <string name="app_name">Score Keeper App</string>
     <string name="game_name">Basketball Game</string>
-    <string name="team_1">Team 1</string>
     <string name="team_2">Team 2</string>
-    <string name="_2_pts">2 pts</string>
-    <string name="_3_pts">3 pts</string>
-    <string name="team_2">Team 2</string>
+    <string name="basketball_match">Basketball match</string>
+    <string name="score">Score</string>
+    <string name="_0">0</string>
+    <string name="_01">0</string>
+    <string name="sign">:</string>
+    <string name="whenever_a_team_scores_just_choose_whether_it_s_a_2_point_or_a_3_point_in_order_to_keep_score">Whenever a team scores just choose whether it\'s a 2 point or a 3 point in order to keep score</string>
+    <string name="team1">Team 1</string>
+    <string name="_3_ptsplus">+3 pts</string>
+    <string name="_3_ptsminus">-3 pts</string>
+    <string name="_2_ptsminus">-2 pts</string>
+    <string name="_2_ptsplus">+2 pts</string>
+    <string name="reset">Reset</string>
 </resources>
