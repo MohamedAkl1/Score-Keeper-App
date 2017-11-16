@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
                 team1score.setText(Integer.toString(temp-2));
             }
         }else{
-            if(Integer.parseInt(team1score.getText().toString()) > 1){
+            if(Integer.parseInt(team2score.getText().toString()) > 1){
                 temp = Integer.parseInt(team2score.getText().toString());
                 team2score.setText(Integer.toString(temp-2));
             }
@@ -136,12 +136,12 @@ public class MainActivity extends AppCompatActivity {
     void threeminus(int team){
         int temp;
         if(team == 1){
-            if(Integer.parseInt(team1score.getText().toString()) > 1){
+            if(Integer.parseInt(team1score.getText().toString()) > 2){
                 temp = Integer.parseInt(team1score.getText().toString());
                 team1score.setText(Integer.toString(temp-3));
             }
         }else{
-            if(Integer.parseInt(team2score.getText().toString()) > 1){
+            if(Integer.parseInt(team2score.getText().toString()) > 2){
                 temp = Integer.parseInt(team2score.getText().toString());
                 team2score.setText(Integer.toString(temp-3));
             }
